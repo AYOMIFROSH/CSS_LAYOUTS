@@ -55,33 +55,27 @@ button:hover{
 
 /* finishedTheFirstPart */
 
-#headlo {
-    display: flex;
-    height: 40px;
+#headerlogo {
     width: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 90px;
-}
-
-.main {
-    display: block;
+    aspect-ratio: auto 40 / 40;
+    height: 40px;
+  }
+  .leadsection {
+    display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 8rem;
-}
-
-#h2 {
+  }
+  #headerp {
     color: #00b39b;
     font-size: 30px;
     font-family: Work Sans, Arial, sans-serif;
-    font-weight: 300;
-    padding-top: 10px;
-    text-align: center;
-}
-
-.Contents {
+    font-weight: 100;
+    letter-spacing: -0.3px;
+    padding-top: 20px;
+  }
+  .twoparagraphs {
     color: #747474;
     font-size: 16px;
     display: flex;
@@ -93,42 +87,15 @@ button:hover{
     width: 100%;
     justify-content: space-between;
 }
-.content1 {
+  .p1 {
     padding-right: 30px;
 }
-/* FinishedTheSecondPart */
 
-.drop1 {
-    background-color: #00ccb1;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    justify-content: space-between;
-    height: 345px;
+#content{
+    background-color: #00b39b;
 }
 
-.drop2 {
-    background-color: #3d83df;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 35px;
-    justify-content: space-between;
-    height: 345px;
-}
-
-.drop3 {
-    background-color: #1b2734;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 30px 40px;
-    justify-content: space-between;
-    height: 345px;
-}
-
-.Section {
+#forsection {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -139,45 +106,19 @@ button:hover{
     font-weight: 300;
     line-height: 1.2;
     margin: 3.75rem auto 2.5rem;
+    color: #fff;
     font-family: Work Sans, Arial, sans-serif;
     max-width: 1015px;
     padding: 0 20px;
     position: relative;
 }
 
-.drop1 select {
+.for1 {
     background-color: #00ccb1;
-    border: none;
-    text-decoration: underline;
-    margin-bottom: 30px;
-    font-style: bold;
-  }
-
-.drop2 select {
-    background-color: #3d83df;
-    border: none;
-    text-decoration: underline;
-    margin-bottom: 30px;
-    font-style: bold;
-}
-
-.drop3 select {
-    background-color: #1b2734;
-    border: none;
-    text-decoration: underline;
-    margin-bottom: 30px;
-    font-style: bold;
-}
-
-.drop1 #pa1,
-.drop2 #pa2,
-.drop3 #pa3 {
-  font-size: 1.625em;
-  font-weight: 400;
-  margin: 0.3em 0;
-  font-family: Work Sans, Arial, sans-serif;
-}
-.Section img {
-  width: 25px;
-  height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
 }
