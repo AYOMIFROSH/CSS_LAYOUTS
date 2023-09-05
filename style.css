@@ -305,14 +305,14 @@ button:hover{
   }
 
   /* finishedTheFifthPart */
-  .section5 {
+  .Part5 {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 70px;
     width: 100%;
   }
-  .section5 h3 {
+  .Part5 h3 {
     font-size:  34.285714864px;
     color: #00b39b;
     font-family: Work Sans, Arial, sans-serif;
@@ -320,7 +320,7 @@ button:hover{
     letter-spacing: -0.5px;
     text-align: center;
   }
-  .section5 p {
+  .Part5 p {
     margin: 1.6em 0;
     line-height: 1.7142857143;
     text-align: center;
@@ -329,19 +329,20 @@ button:hover{
     color: #747474;
   }
 
-  .section6 {
+  /* finishedTheSixthPart */
+  .Part6 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 0.5cm;
     justify-content: center;
   }
-  .section6 div {
+  .Part6 div {
     border-radius: 3%;
     margin: 0.44%;
   }
   
-  .section6 button {
+  .Part6 button {
     margin-top: 0.5cm;
     display: flex;
     gap: 2cm;
@@ -362,7 +363,7 @@ button:hover{
     padding-right: 10px;
     padding-left: 10px;
   }
-  .section6 p {
+  .Part6 p {
     font-size: medium;
     color: #747474;
     font-family: Roboto, Arial, sans-serif;
@@ -386,5 +387,40 @@ button:hover{
     display: flex;
     justify-content: space-between;
   }
-  /* section 6 done */
-  
+  /*FinishedTheSeventhpart */
+  .Part7 button {
+    margin-left: 120px;
+    background-color: #3d83df;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    border-radius: 4px;
+    text-align: center;
+    border: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    font-size: 11px;
+  }
+  .Part7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* finishedTheEightPart */
+
+  footer {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 12px;
+    font-family: Roboto, Arial, sans-serif;
+    color: #ababab;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  footer p {
+    padding-top: 20px;
+  }
